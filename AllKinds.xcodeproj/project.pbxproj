@@ -13,6 +13,8 @@
 		CEB516201EB32F80006E272A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB5161E1EB32F80006E272A /* Main.storyboard */; };
 		CEB516221EB32F80006E272A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB516211EB32F80006E272A /* Assets.xcassets */; };
 		CEB516251EB32F80006E272A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB516231EB32F80006E272A /* LaunchScreen.storyboard */; };
+		CEB5162F1EB3350E006E272A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB5162D1EB3350E006E272A /* RootViewController.m */; };
+		CEB516301EB3350E006E272A /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB5162E1EB3350E006E272A /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		CEB516211EB32F80006E272A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB516241EB32F80006E272A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB516261EB32F80006E272A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB5162C1EB3350E006E272A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CEB5162D1EB3350E006E272A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CEB5162E1EB3350E006E272A /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,9 @@
 			children = (
 				CEB516181EB32F80006E272A /* AppDelegate.h */,
 				CEB516191EB32F80006E272A /* AppDelegate.m */,
+				CEB5162C1EB3350E006E272A /* RootViewController.h */,
+				CEB5162D1EB3350E006E272A /* RootViewController.m */,
+				CEB5162E1EB3350E006E272A /* RootViewController.xib */,
 				CEB5161B1EB32F80006E272A /* ViewController.h */,
 				CEB5161C1EB32F80006E272A /* ViewController.m */,
 				CEB5161E1EB32F80006E272A /* Main.storyboard */,
@@ -139,6 +147,7 @@
 			files = (
 				CEB516251EB32F80006E272A /* LaunchScreen.storyboard in Resources */,
 				CEB516221EB32F80006E272A /* Assets.xcassets in Resources */,
+				CEB516301EB3350E006E272A /* RootViewController.xib in Resources */,
 				CEB516201EB32F80006E272A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +161,7 @@
 			files = (
 				CEB5161D1EB32F80006E272A /* ViewController.m in Sources */,
 				CEB5161A1EB32F80006E272A /* AppDelegate.m in Sources */,
+				CEB5162F1EB3350E006E272A /* RootViewController.m in Sources */,
 				CEB516171EB32F80006E272A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +317,7 @@
 				CEB5162B1EB32F80006E272A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
